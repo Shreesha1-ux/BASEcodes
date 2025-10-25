@@ -29,6 +29,29 @@ void main()
             printf("THE AMOUNT %d was spent on %s on %d %d %d",AMT,reason,DD,MM,YYYY);
 
         }
+        if(n==3)
+        {
+            int m;
+            printf("PRESS 1 for INTREST EMI \n PRESS 2 for EMI with NO INTREST \n");
+            scanf("%d \n",&m);
+                if(m==1)
+
+                {
+                int emiam,cunth,emiintamt,am;
+                double dur,emiint,emitime,timeemi;
+                printf("ENTER the amount of the product");
+                scanf("%d \n",&am);
+                printf("ENTER THE INTREST ");
+                scanf("%lf \n",&emiint);
+                printf("ENTER the time u will need for to pay =");
+                scanf("%lf",&timeemi);
+                cunth=timeemi*12;
+                emiintamt=(emitime*am*emiint)/100;
+                printf("THE INTERST FOR YOU PRODUCT OF AMOUNT %d IN DURATION OF %lf YEARS IS %D",am,emitime);
+
+
+
+            }
         if(n!=1,2,3)
         {
             printf("the feature do not exist");
