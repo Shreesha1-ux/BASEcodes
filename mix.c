@@ -49,9 +49,15 @@ void main()
                 emiintamt=(emitime*am*emiint)/100;
                 printf("THE INTERST FOR YOU PRODUCT OF AMOUNT %d IN DURATION OF %lf YEARS IS %D",am,emitime);
 
-
-
             }
+            if(m==2)
+        {
+            int namount,ntime,ncunth;
+            printf("NO COST EMI \n  ");
+            printf("Enter the amount of the product ");
+            scanf("%d",&namount);
+            ncunth=ntime*12;
+        }
         if(n!=1,2,3)
         {
             printf("the feature do not exist");
