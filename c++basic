@@ -49,8 +49,10 @@ int main(){
     }
     cout<<"sum is"<<sum;
     return 0;
-}*/
-/*
+}
+
+//sum of square numbers
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -64,8 +66,8 @@ int main(){
     cout<<"sum is"<<sum;
     return 0;
 }
-*/
-/*
+// swapping
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -79,15 +81,4 @@ int main(){
     cout<<"after swapping a="<<a<<"b="<<b;
     return 0;
     
-}*/
-
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-int n,m,temp;
-cout<<"enter the values for a and m";
-cin>>n>>m;
-temp=(n/m);
-cout<<temp;
-return 0;
 }
