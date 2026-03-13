@@ -1,4 +1,6 @@
+// geeks for geeks basic practice problems
 
+//check odd even 
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -16,8 +18,7 @@ int main()
     }
     return 0;
 }
-*/
-/*
+// multiplication table
 using namespace std;
 #include<bits/stdc++.h>
 
@@ -31,8 +32,10 @@ int main()
     }
     return 0;
 }
-*/
-/*
+
+
+//sum of numbers program
+
 #include<bits/stdc++.h>
 using  namespace std;
 
