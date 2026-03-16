@@ -36,6 +36,43 @@ int main()
 
 //sum of numbers program
 
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int m,n,q1,q2,result;
+    cout<<"enter the values for m and n \n ";
+    cin>>n>>m;
+    cout<<"m="<<m<<"n="<<n;
+    q1=(n/m)*m;
+    if(n<0){
+    q2=((n/m)-1)*m;
+    }
+    if(n>=0){
+    q2=((n/m)+1)*m;
+    }
+    
+    if(abs(n-q1) < abs(n-q2)){
+        result=q1;
+    }
+    else if(abs(n-q1) > abs(n-q2)){
+        result=q2;
+    }
+    else{
+        if(abs(q1)>abs(q2)){
+        result=q1;
+        }
+        else{
+        result=q2;
+    }}
+    cout<<"the closest number is "<<result;
+
+
+    return 0;
+}
+
 #include<bits/stdc++.h>
 using  namespace std;
 
